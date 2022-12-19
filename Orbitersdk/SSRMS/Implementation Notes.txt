@@ -1,0 +1,15 @@
+LEE Switching:
+	Each LEE has 2 attach points (to parent and to child).
+	Switching process:
+		Current base detaches from parent, but remains 'grappled'.
+		Other LEE (already grappled) attaches to parent attach point.
+Arm Position/direction data:
+	The arm_ee_pos vector measures position relative to the SR joint of LEE1.
+	The reference frame is defined below:
+		X -> axis around which roll joints rotate
+		Y -> axis around which pitch joints rotate
+		Z -> axis around which yaw joints rotate
+IK Ref Frame:
+	X -> axis around which roll joints rotate
+	Y -> axis around which pitch joints rotate
+	Z -> axis around which yaw joints rotate

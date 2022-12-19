@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SSRMS", "SSRMS.vcxproj", "{236ECBC1-0D32-4DA2-A3C6-CFB01B9D3179}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EDA1260C-9F5C-478A-B18B-A687101FC234} = {EDA1260C-9F5C-478A-B18B-A687101FC234}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libUltra", "..\libUltra\libUltra_2013.vcxproj", "{EDA1260C-9F5C-478A-B18B-A687101FC234}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Analysis (Debug)|Win32 = Analysis (Debug)|Win32
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{236ECBC1-0D32-4DA2-A3C6-CFB01B9D3179}.Analysis (Debug)|Win32.ActiveCfg = Analysis (Debug)|Win32
+		{236ECBC1-0D32-4DA2-A3C6-CFB01B9D3179}.Analysis (Debug)|Win32.Build.0 = Analysis (Debug)|Win32
+		{236ECBC1-0D32-4DA2-A3C6-CFB01B9D3179}.Debug|Win32.ActiveCfg = Debug|Win32
+		{236ECBC1-0D32-4DA2-A3C6-CFB01B9D3179}.Debug|Win32.Build.0 = Debug|Win32
+		{236ECBC1-0D32-4DA2-A3C6-CFB01B9D3179}.Release|Win32.ActiveCfg = Release|Win32
+		{236ECBC1-0D32-4DA2-A3C6-CFB01B9D3179}.Release|Win32.Build.0 = Release|Win32
+		{EDA1260C-9F5C-478A-B18B-A687101FC234}.Analysis (Debug)|Win32.ActiveCfg = Debug|Win32
+		{EDA1260C-9F5C-478A-B18B-A687101FC234}.Analysis (Debug)|Win32.Build.0 = Debug|Win32
+		{EDA1260C-9F5C-478A-B18B-A687101FC234}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EDA1260C-9F5C-478A-B18B-A687101FC234}.Debug|Win32.Build.0 = Debug|Win32
+		{EDA1260C-9F5C-478A-B18B-A687101FC234}.Release|Win32.ActiveCfg = Release|Win32
+		{EDA1260C-9F5C-478A-B18B-A687101FC234}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
